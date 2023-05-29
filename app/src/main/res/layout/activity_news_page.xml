@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsPage">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Warriors VS Kings"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.179"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="349dp"
+        android:layout_height="251dp"
+        android:text="Curry hit a play-off career-high 50 points as his side won 120-100.
+
+The Warriors will face LeBron James's LA Lakers in the Western Conference semi-finals.
+
+Earlier, the Miami Heat beat the New York Knicks 108-101 to go 1-0 up in the Eastern Conference semis.
+
+The Warriors were trounced 118-99 in game six on Friday but Curry, chasing a fifth NBA title in nine years, starred in the decider - finishing with the most points ever in a game seven - as his side progressed.
+
+The Kings, who were making their first post-season appearance in 17 years, and had the benefit of a home crowd, led 58-56 at half-time with Domantas Sabonis scoring 16 points.
+
+But the third quarter belonged to the Warriors, and once Curry scored five points in a row to put them 69-62 up with seven minutes and 50 seconds remaining they seized control and never relinquished it.
+
+Curry was devastating with seven three-pointers in his tally but Kevon Looney (21 rebounds and 11 points), Andrew Wiggins (17 points) and Klay Thompson (16 points) also played their parts in the win.
+
+The opening game between the Lakers and the Warriors will take place at 03:00 BST on Wednesday in San Francisco."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.547"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
